@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Link, Route } from "react-router-dom";
 import Register from "./register";
 import "./login.css";
+import SignUp from "./register";
 
 const Signin = () => {
   return (
@@ -46,7 +47,9 @@ const Signin = () => {
           <br />
         </form>
         <p id="forgot" className="w3-animate-zoom"></p>
-        <Link to={Register}>Create a account</Link>
+        <div>
+          <Link to="/SignUp">Create a account</Link>
+        </div>
         <br />
       </div>
     </div>

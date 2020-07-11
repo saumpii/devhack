@@ -1,19 +1,18 @@
 import React from "react";
-
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import "./add.css";
+import FileUpload from "../Input/FileUpload";
 const Add = () => {
   return (
-    <div>
-      <a className="button plus" href="#plus">
-        <span className="bg" id="plus"></span>
-        <span className="symbol"></span>
-      </a>
-      <a className="button minus" href="#minus">
-        <span className="bg" id="minus"></span>
-        <span className="symbol"></span>
-      </a>
-      <span className="cancel">
-        <a href="#">Clear</a>
-      </span>
-    </div>
+    <BrowserRouter>
+      <form>
+        <Link to="/Upload">
+          <button>+</button>
+        </Link>
+        <button>-</button>
+      </form>
+    </BrowserRouter>
   );
 };
+
+export default Add;

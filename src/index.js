@@ -1,9 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
-import 'tachyons';
+import React from "react";
+import ReactDom from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import { Provider } from "react-redux";
+//import Counter from "./components/counter.jsx";
+//import Counters from "./components/counters";
+import App from "./App";
+import store from "./store";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDom.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

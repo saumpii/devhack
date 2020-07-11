@@ -4,7 +4,7 @@ import { BrowserRouter, Link, Route } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { register } from "../../actions/userActions";
 import { userRegisterReducer } from "../../Reducers/userReducers";
-import Signin from "./";
+import Signin from "./login";
 
 const Register = (props) => {
   const [name, setName] = useState("");
@@ -66,7 +66,7 @@ const Register = (props) => {
           </div>
         </div>
         <div>
-          <Link to={Signin}>Login if account exists</Link>
+          <Link to="/Login">Login if account exists</Link>
         </div>
         <input type="submit" value="Sign Up" />
       </form>
