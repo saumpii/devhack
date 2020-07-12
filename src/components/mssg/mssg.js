@@ -8,7 +8,7 @@ const mssg = () => {
 
   return(
   <h1>hi {userInfo.name}</h1> 
-  <p>Conformation mssg</p>
+  <p>It has been found that someone has been </p>
   <button>Ok</button>
   <button>No</button>
 

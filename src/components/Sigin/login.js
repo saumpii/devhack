@@ -9,8 +9,8 @@ const Signin = () => {
     <div>
       <div className="login_div">
         <p id="header_para" className="w3-animate-fading">
-          <b>Sujan</b>
-          <span id="card">Dev</span>
+          <b>Compile</b>
+          <span id="card">Crushers</span>
         </p>
         <hr id="hr1" />
         {"            "}

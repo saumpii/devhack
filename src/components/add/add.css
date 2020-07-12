@@ -1,0 +1,52 @@
+.yo {
+  padding: 0;
+  margin: 0;
+}
+.meme {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+.containerg {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonh {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-style: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: linear-gradient(orange, red);
+  box-shadow: 0px 1px 4px -2px #333;
+  text-shadow: 0px -1px #333;
+  outline: none;
+  transition-duration: 200ms;
+  transition: background-image 300ms linear 100ms;
+}
+
+.buttonh:hover {
+  background: linear-gradient();
+}
+
+.buttonh:active {
+  transform: scale(0.9);
+  background-image: linear-gradient(red, #8b0000);
+}
+
+.edget:active {
+  box-shadow: 2px 2px 0px 10px grey inset;
+}
+
+.edget {
+  align-self: center;
+  display: flex;
+  transition-duration: 0ms;
+  width: 100px;
+  height: 100px;
+  border: 5px solid lightgrey;
+  border-radius: 50%;
+}

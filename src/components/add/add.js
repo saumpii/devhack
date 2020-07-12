@@ -5,11 +5,23 @@ import FileUpload from "../Input/FileUpload";
 const Add = () => {
   return (
     <BrowserRouter>
-      <form>
+      <form className="meme">
         <Link to="/Upload">
-          <button>+</button>
+          <div className="containerg">
+            <div className="edget">
+              <button className="buttonh">
+                <h3 className="yo">+</h3>
+              </button>
+            </div>
+          </div>
         </Link>
-        <button>-</button>
+        <div className="containerg">
+          <div className="edget">
+            <button className="buttonh">
+              <h3 className="yo">-</h3>
+            </button>
+          </div>
+        </div>
       </form>
     </BrowserRouter>
   );
